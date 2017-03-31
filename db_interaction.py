@@ -21,7 +21,6 @@ import sqlite3
 def db_insert_task(text):
     '''
     :param text: text that we want to insert as task in the db
-    :param urgent: 0 if the task is not urgent, 1 otherwise
     This method insert a task in the database
     '''
 
